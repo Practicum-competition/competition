@@ -1,0 +1,12 @@
+.footer__subtitle {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  border: 1px solid #7d7d7d;
+  border-radius: 4px;
+  padding: 11px 270px 11px 20px;
+  opacity: 0.5;
+  max-width: 360px;
+  margin: 0;
+  display: inline-block;
+}
