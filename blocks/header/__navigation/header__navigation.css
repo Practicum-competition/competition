@@ -1,0 +1,13 @@
+.header__navigation {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 34px;
+    justify-content: end;
+    justify-items: end;
+    list-style-type: none;
+    max-width: 1200px;
+    margin: 28px auto;
+    position: fixed;
+    top: 0;
+    right: 120px;
+}
