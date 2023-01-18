@@ -2,6 +2,23 @@
 @import url(../vendor/fonts/Inter-3.19/InterWeb/inter.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/bicycle/bicycle.css);
+@import url(../blocks/bicycle/__figure-container/bicycle__figure-container.css);
+@import url(../blocks/bicycle/__image/bicycle__image.css);
+@import url(../blocks/bicycle/__figure/bicycle__figure.css);
+@import url(../blocks/bicycle/__list-item/bicycle__list-item.css);
+@import url(../blocks/bicycle/__name/bicycle__name.css);
+@import url(../blocks/bicycle/__header/bicycle__header.css);
+@import url(../blocks/bicycle/__links/bicycle__links.css);
+@import url(../blocks/bicycle/__link/bicycle__link.css);
+@import url(../blocks/bicycle/__link/_active/bicycle__link_active.css);
+@import url(../blocks/training/training.css);
+@import url(../blocks/training/__info/training__info.css);
+@import url(../blocks/training/__image/training__image.css);
+@import url(../blocks/training/__links/training__links.css);
+@import url(../blocks/training/__link/training__link.css);
+@import url(../blocks/training/__link/_active/training__link_active.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
@@ -10,3 +27,5 @@
 @import url(../blocks/footer/__icon-container/footer__icon-container.css);
 @import url(../blocks/footer/__toggle/footer__toggle.css);
 @import url(../blocks/footer/__toggle/_circle/footer__toggle_circle.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-text/section-text.css);

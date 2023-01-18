@@ -1,0 +1,8 @@
+.bicycle__image {
+  padding: 20px;
+  background-color: #f4f4f4;
+  max-height: 340px;
+  max-width: 340px;
+  border-radius: 20px;
+  display: block;
+}

@@ -1,9 +1,9 @@
 .footer__toggle_circle {
-    background-color: #24b47e;
-    border-radius: 9999px;
-    min-width: 20px;
-    min-height: 20px;
-    position: absolute;
-    top: 2px;
-    left: 2px;
+  background-color: #24b47e;
+  border-radius: 9999px;
+  min-width: 20px;
+  min-height: 20px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
 }
