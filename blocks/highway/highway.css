@@ -1,0 +1,8 @@
+.highway {
+    width: calc(100% - 240px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 120px auto;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
