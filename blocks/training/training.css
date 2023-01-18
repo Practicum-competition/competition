@@ -1,0 +1,6 @@
+.training {
+  display: flex;
+  column-gap: 160px;
+  justify-content: space-between;
+  padding: 150px 120px 120px;
+}

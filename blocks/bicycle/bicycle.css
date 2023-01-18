@@ -1,0 +1,6 @@
+.bicycle {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 60px 120px;
+}
