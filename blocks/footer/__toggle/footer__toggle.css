@@ -1,8 +1,8 @@
 .footer__toggle {
-    background-color: #545454;
-    height: 24px;
-    min-width: 44px;
-    border-radius: 9999px;
-    position: relative;
-    align-self: start;
+  background-color: #545454;
+  height: 24px;
+  min-width: 44px;
+  border-radius: 9999px;
+  position: relative;
+  align-self: start;
 }

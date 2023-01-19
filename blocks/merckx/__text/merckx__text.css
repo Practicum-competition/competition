@@ -1,9 +1,9 @@
 .merckx__text {
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
-    justify-content: space-between;
-    max-width: 470px;
-    color: #FFFFFF;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: space-between;
+  max-width: 470px;
+  color: #FFFFFF;
+  margin: 0;
 }

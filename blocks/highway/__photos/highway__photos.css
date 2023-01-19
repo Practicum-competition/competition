@@ -1,6 +1,6 @@
 .highway__photos {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 40px;
-    display: grid;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 40px;
+  margin-top: 80px;
 }

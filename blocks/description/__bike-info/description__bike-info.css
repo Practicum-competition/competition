@@ -1,0 +1,6 @@
+.description__bike-info {
+  display: flex;
+  margin-top: 183px;
+  column-gap: 30px;
+  align-items: center;
+}

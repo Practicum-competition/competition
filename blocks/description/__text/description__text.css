@@ -1,9 +1,9 @@
 .description__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-    margin-left: 120px;
-    max-width: 460px;
-    color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-left: 120px;
+  max-width: 460px;
+  color: #FFFFFF;
 }
