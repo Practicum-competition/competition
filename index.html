@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mesto</title>
+  <title>Cycling</title>
   <meta name="description" content="Сайт для велосипедистов">
   <meta name="keywords" content="bicycle, cyclist, travel, beautiful places, tourism, people, type of bicycle, training, highway">
   <meta name="author" content="Анастасия Зимина и Виктория Масюк">
@@ -18,16 +18,17 @@
         <li><a class="header__link" href="#bicycle">Велосипеды</a></li>
         <li><a class="header__link" href="#training">Тренировки</a></li>
       </ul>
+      <div class="arrow"></div>
     </nav>
   </header>
   <main>
     <section class="description" id="description">
       <div class="description__text">
         <h1 class="description__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
-        <p class="section-text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
+        <p class="section-text description__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
           – нужно только определиться с выбором велосипеда и отправиться в путь.
         </p>
-        <button class="description__info-button">Подробнее</button>
+        <button class="description__info-button" type="button">Подробнее</button>
         <div class="description__bike-info">
           <p class="description__bike-name">Cannondale Systemsix</p>
           <div class="description__decor"></div>
@@ -35,7 +36,7 @@
       </div>
       <img class="description__image" src="./images/Placeholder-4.png" alt="Фото одного из живописных маршрутов">
       <div class="bike-fix__container">
-        <div><img class="bike-fix" src="images/Trek.png" alt="Велосипед"/></div>
+        <div class="bike-fix__sticky"><img class="bike-fix" src="images/Trek.png" alt="Велосипед"/></div>
       </div>
     </section>
     <section class="merckx">
@@ -56,16 +57,15 @@
       <div class="highway__photos">
         <div class="highway__photo">
           <img class="highway__image" src="./images/Placeholder.png" alt="Фото горных дорог">
-          <!--<img class="highway__image_sticker" src="./images/Rectangle5.png" alt="">-->
         </div>
         <img class="highway__image" src="./images/Placeholder-2.png" alt="Фото лесной тропы">
       </div>
       <div class="highway__buttons">
-        <button class="highway__button"></button>
-        <button class="highway__button"></button>
+        <button class="highway__button highway__button_left" type="button"></button>
+        <button class="highway__button highway__button_right" type="button"></button>
       </div>
     </section>
-    <section class="bicycle">
+    <section class="bicycle" id="bicycle">
       <div class="bicycle__header">
         <h2 class="section-title">Велосипеды</h2>
         <ul class="bicycle__links">
@@ -101,7 +101,7 @@
         </li>
       </ul>
     </section>
-    <section class="training">
+    <section class="training" id="training">
       <div class="training__info">
         <h2 class="section-title">Тренировки</h2>
         <p class="section-text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,

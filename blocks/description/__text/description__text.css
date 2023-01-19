@@ -6,4 +6,11 @@
   margin-left: 120px;
   max-width: 460px;
   color: #FFFFFF;
+  grid-area: text;
 }
+@media screen and (max-width: 768px) {
+  .description__subtitle {
+    margin: 0px auto 40 auto;
+    justify-self: start;
+   }
+ }

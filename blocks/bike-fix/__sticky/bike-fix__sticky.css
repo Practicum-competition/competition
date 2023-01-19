@@ -1,0 +1,5 @@
+.bike-fix__sticky {
+    position: sticky;
+    left: 0;
+    top: 0px;
+}
