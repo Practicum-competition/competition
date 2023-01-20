@@ -5,6 +5,18 @@
   padding: 60px 120px;
 }
 
+@media screen and (max-width: 1439px) {
+  .bicycle {
+    padding: 50px 90px 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bicycle {
+    padding: 40px 70px 30px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .bicycle {
     padding: 80px 18px 40px;

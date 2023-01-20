@@ -6,6 +6,12 @@
   color: white;
 }
 
+@media screen and (max-width: 1439px) {
+  .bicycle__name {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .bicycle__name {
     font-size: 14px;

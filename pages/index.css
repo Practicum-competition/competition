@@ -47,7 +47,6 @@
 @import url(../blocks/training/__image/training__image.css);
 @import url(../blocks/training/__links/training__links.css);
 @import url(../blocks/training/__link/training__link.css);
-@import url(../blocks/training/__link/_active/training__link_active.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
@@ -64,3 +63,7 @@
 @import url(../blocks/footer/__object/footer__object.css);
 @import url(../blocks/footer/__object/_mobile/footer__object_mobile.css);
 @import url(../blocks/bicycle/__item-link/bicycle__item-link.css);
+@import url(../blocks/bicycle/__link-image/bicycle__link-image.css);
+@import url(../blocks/bicycle/__circle-container/bicycle__circle-container.css);
+@import url(../blocks/bicycle/__circle/bicycle__circle.css);
+@import url(../blocks/training/__paragraph/training__paragraph.css);

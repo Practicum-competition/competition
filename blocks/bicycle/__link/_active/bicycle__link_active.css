@@ -3,3 +3,9 @@
   opacity: 1;
   font-weight: 600;
 }
+
+.bicycle__link_active {
+  color: white;
+  opacity: 0.65;
+  font-weight: 600;
+}

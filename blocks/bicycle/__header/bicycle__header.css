@@ -4,12 +4,18 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1439px) {
+  .bicycle__header {
+    margin-bottom: 60px;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .bicycle__header {
     flex-direction: column;
     row-gap: 40px;
     margin-bottom: 20px;
+    align-items: start;
   }
-
-
 }
