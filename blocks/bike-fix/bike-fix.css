@@ -1,6 +1,6 @@
 .bike-fix {
     min-width: 340px;
-    max-height: 260px;
+    min-height: 260px;
     padding: 20px 50px;
     background-color: #f4f4f4;
     border-radius: 20px;
@@ -14,8 +14,11 @@
 }
    @media screen and (max-width: 768px) {
     .bike-fix {
-        min-width: 234px;
-        min-height: 187px;
+        min-width: 170px;
+        min-height: 128px;
+        max-width: 180px;
+        max-height: 140px;
+        border-radius: 10px;
      }
 }
 

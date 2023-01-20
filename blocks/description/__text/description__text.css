@@ -15,9 +15,8 @@
  }
 @media screen and (max-width: 768px) {
   .description__text {
-    margin: 0px auto 40 auto;
+    margin: 0px auto 40px 0px;
     justify-self: start;
     max-width: 284px;
-    margin-left: 0;
    }
  }
