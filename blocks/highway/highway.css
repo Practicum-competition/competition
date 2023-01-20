@@ -6,3 +6,20 @@
   justify-content: flex-start;
   align-content: flex-start;
 }
+@media screen and (max-width: 1024px) {
+  .highway {
+    
+   }
+ }
+@media screen and (max-width: 768px) {
+  .highway {
+    display: grid;
+    grid-template-areas: 
+    "title buttons"
+    "image image"
+    "text text";
+    justify-content: flex-start;
+    width: calc(100% - 36px);
+    margin: 80px auto 40px auto;
+   }
+ }
