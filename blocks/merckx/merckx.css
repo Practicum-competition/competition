@@ -6,3 +6,17 @@
   justify-content: space-between;
   column-gap: 80px;
 }
+@media screen and (max-width: 1024px) {
+  .merckx {
+    
+   }
+ }
+@media screen and (max-width: 768px) {
+  .merckx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 114px auto 0 auto;
+   }
+ }
