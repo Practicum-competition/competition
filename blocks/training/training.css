@@ -1,6 +1,17 @@
 .training {
-  display: flex;
+  /*display: flex;
   column-gap: 160px;
   justify-content: space-between;
+  padding: 150px 120px 120px;*/
   padding: 150px 120px 120px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: minmax(400px, 570px) minmax(400px, 580px);
+}
+
+@media screen and (max-width:767px) {
+  .training {
+    grid-template-columns: 1fr;
+    padding: 80px 18px 60px;
+  }
 }

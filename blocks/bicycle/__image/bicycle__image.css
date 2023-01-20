@@ -6,3 +6,11 @@
   border-radius: 20px;
   display: block;
 }
+
+@media screen and (max-width: 767px){
+    .bicycle__image {
+    max-width: 254px;
+    max-height: 254px;
+    padding: 15px;
+  }
+}

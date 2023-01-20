@@ -2,8 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cycling</title>
   <meta name="description" content="Сайт для велосипедистов">
   <meta name="keywords" content="bicycle, cyclist, travel, beautiful places, tourism, people, type of bicycle, training, highway">
@@ -11,7 +10,7 @@
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
-  <header class="header">
+  <!--<header class="header">
     <nav>
       <ul class="header__navigation">
         <li><a class="header__link" href="#description">Покрытия и градиенты</a></li>
@@ -20,9 +19,9 @@
       </ul>
       <div class="arrow"></div>
     </nav>
-  </header>
+  </header>-->
   <main>
-    <section class="description" id="description">
+    <!--<section class="description" id="description">
       <div class="description__text">
         <h1 class="description__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
         <p class="section-text description__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
@@ -39,6 +38,7 @@
         <div class="bike-fix__sticky"><img class="bike-fix" src="images/Cannondale.png" alt="Велосипед"/></div>
       </div>
     </section>
+
     <section class="merckx">
       <img class="merckx__image" src="./images/Placeholder-3.png" alt="Фото велосипедиста на горном серпантине">
       <div class="merckx__text">
@@ -64,57 +64,62 @@
         <button class="highway__button highway__button_left" type="button"></button>
         <button class="highway__button highway__button_right" type="button"></button>
       </div>
-    </section>
+    </section>-->
     <section class="bicycle" id="bicycle">
       <div class="bicycle__header">
         <h2 class="section-title">Велосипеды</h2>
         <ul class="bicycle__links">
           <li><a class="bicycle__link bicycle__link_active" href="#">Шоссе</a></li>
-          <li><a class="bicycle__link" href="#">Грэвел</a></li>
-          <li><a class="bicycle__link" href="#">ТТ</a></li>
+          <li><a class="bicycle__link" href="#" hidden>Грэвел</a></li>
+          <li><a class="bicycle__link" href="#" hidden>ТТ</a></li>
         </ul>
       </div>
       <ul class="bicycle__figure-container">
         <li class="bicycle__list-item">
-          <figure class="bicycle__figure">
-            <img class="bicycle__image"
+          <a class="bicycle__item-link" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN" target="_blank">
+            <figure class="bicycle__figure">
+              <img class="bicycle__image"
                 src="./images/Cervelo.png"
                 alt="cervelo caledonia"/>
-            <figcaption class="bicycle__name">Cervelo Caledonia-5</figcaption>
-          </figure>
+              <figcaption class="bicycle__name">Cervelo Caledonia-5</figcaption>
+            </figure>
+          </a>
         </li>
-        <li class="bicycle__list-item">
-          <figure class="bicycle__figure">
-            <img class="bicycle__image"
-                 src="./images/Cannondale.png"
-                 alt="cannondale systemsix"/>
-            <figcaption class="bicycle__name">Cannondale Systemsix Himod</figcaption>
-          </figure>
+        <li class="bicycle__list-item" hidden>
+          <a class="bicycle__item-link" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" target="_blank">            <figure class="bicycle__figure">
+              <img class="bicycle__image"
+                src="./images/Cannondale.png"
+                alt="cannondale systemsix"/>
+              <figcaption class="bicycle__name">Cannondale Systemsix Himod</figcaption>
+            </figure>
+          </a>
         </li>
-        <li class="bicycle__list-item">
-          <figure class="bicycle__figure">
-            <img class="bicycle__image"
-                 src="./images/Trek.png"
-                 alt="trek domain"/>
-            <figcaption class="bicycle__name">Trek Domane SL-7</figcaption>
-          </figure>
+        <li class="bicycle__list-item" hidden>
+          <a class="bicycle__item-link" href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" target="_blank">
+            <figure class="bicycle__figure">
+              <img class="bicycle__image"
+                src="./images/Trek.png"
+                alt="trek domain"/>
+              <figcaption class="bicycle__name">Trek Domane SL-7</figcaption>
+            </figure>
+          </a>
         </li>
       </ul>
     </section>
-    <section class="training" id="training">
-      <div class="training__info">
-        <h2 class="section-title">Тренировки</h2>
-        <p class="section-text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
-          а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить
-          тренировочный план.
-        </p>
-        <ul class="training__links">
-          <li><a class="training__link" href="https://www.strava.com" target="_blank">Strava</a></li>
-          <li><a class="training__link training__link_active" href="https://www.komoot.com" target="_blank">Komoot</a></li>
-        </ul>
-      </div>
-      <img class="training__image" src="./images/training.png" alt="Шоссе"/>
-    </section>
+    <!-- <section class="training" id="training">
+   <div class="training__info">
+       <h2 class="section-title">Тренировки</h2>
+       <p class="section-text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+         а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить
+         тренировочный план.
+       </p>
+       <ul class="training__links">
+         <li><a class="training__link" href="https://www.strava.com" target="_blank">Strava</a></li>
+         <li><a class="training__link training__link_active" href="https://www.komoot.com" target="_blank">Komoot</a></li>
+       </ul>
+     </div>
+     <img class="training__image" src="./images/training.png" alt="Шоссе"/>
+   </section>-->
   </main>
   <footer class="footer">
     <h2 class="footer__title">Подпишитесь&nbsp;на рассылку —</h2>
@@ -122,13 +127,16 @@
     <div class="footer__container">
       <p class="footer__copyright">© Road Club 2021</p>
       <div class="footer__icon-container">
-        <object type="image/svg+xml" data="white-theme.svg">
+        <object class=" footer__object_mobile" type="image/svg+xml" data="gear.svg">
+          <img src="./images/logo__gear.png" alt="Шестеренка">
+        </object>
+        <object class="footer__object" type="image/svg+xml" data="white-theme.svg">
           <img src="./images/white-theme.svg" alt="Светлая тема">
         </object>
         <div class="footer__toggle">
           <div class="footer__toggle_circle"></div>
         </div>
-        <object type="image/svg+xml" data="dark-theme.svg">
+        <object class="footer__object" type="image/svg+xml" data="dark-theme.svg">
           <img src="./images/dark-theme.svg" alt="Темная тема">
         </object>
       </div>

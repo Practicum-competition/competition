@@ -57,3 +57,6 @@
 @import url(../blocks/bike-fix/bike-fix.css);
 @import url(../blocks/bike-fix/__container/bike-fix__container.css);
 @import url(../blocks/bike-fix/__sticky/bike-fix__sticky.css);
+@import url(../blocks/footer/__object/footer__object.css);
+@import url(../blocks/footer/__object/_mobile/footer__object_mobile.css);
+@import url(../blocks/bicycle/__item-link/bicycle__item-link.css);

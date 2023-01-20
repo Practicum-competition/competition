@@ -1,0 +1,10 @@
+.footer__object {
+  display: flex;
+}
+
+@media screen and (max-width: 1023px){
+  .footer__object {
+    display: none;
+  }
+}
+

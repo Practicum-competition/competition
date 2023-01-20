@@ -6,3 +6,9 @@
   position: relative;
   align-self: start;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__toggle {
+    display: none;
+  }
+}

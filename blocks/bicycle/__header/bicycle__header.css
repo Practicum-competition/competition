@@ -3,3 +3,13 @@
   margin-bottom: 120px;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 767px) {
+  .bicycle__header {
+    flex-direction: column;
+    row-gap: 40px;
+    margin-bottom: 20px;
+  }
+
+
+}

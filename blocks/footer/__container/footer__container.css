@@ -1,5 +1,27 @@
 .footer__container {
   display: flex;
-  margin-top: 86px;
+  margin-top: 100px;
   column-gap: 939px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__container  {
+    column-gap: calc(100% - 260px);
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__container  {
+    column-gap: calc(100% - 170px);
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container  {
+    column-gap: 126px;
+    margin-top: 99px;
+    align-items: center;
+  }
 }

@@ -1,3 +1,9 @@
 .bicycle__list-item {
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 768px){
+  .bicycle__list-item {
+    display: flex;
+  }
+}
