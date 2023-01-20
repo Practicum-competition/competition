@@ -2,7 +2,13 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1023px){
+  .bicycle__list-item:not(:last-child) {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1439px){
   .bicycle__list-item {
     display: flex;
   }

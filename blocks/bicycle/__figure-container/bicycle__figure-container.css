@@ -4,4 +4,12 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #333;
+}
+
+@media screen and (max-width: 1439px) {
+  .bicycle__figure-container {
+    justify-content: center;
+    align-items: center;
+  }
 }

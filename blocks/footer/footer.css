@@ -14,12 +14,12 @@
 
 @media screen and (max-width: 1023px) {
   .footer  {
-    padding: 70px 60px 45px;
+    padding: 70px 70px 45px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer  {
-    padding: 60px 20px 25px;
+    padding: 60px 18px 25px;
   }
 }

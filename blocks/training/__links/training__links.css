@@ -5,3 +5,15 @@
   padding: 0;
   column-gap: 30px;
 }
+
+@media screen and (max-width: 1023px) {
+  .training__links {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .training__links {
+    margin: 40px 0 0 0;
+  }
+}

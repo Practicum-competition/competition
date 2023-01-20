@@ -3,6 +3,17 @@
   font-size: 18px;
   line-height: 28px;
   color: white;
-  opacity: 0.65;
   text-decoration: none;
 }
+
+.training__link:hover {
+  opacity: 0.65;
+}
+
+@media screen and (max-width: 767px) {
+  .training__link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
