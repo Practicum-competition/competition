@@ -2,3 +2,10 @@
   max-width: 650px;
   object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  .merckx__image {
+    width: calc(100% - 36px);
+    margin: 60px auto 40px auto;
+    align-self: center;
+   }
+ }
