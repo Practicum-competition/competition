@@ -2,6 +2,11 @@
   max-width: 650px;
   object-fit: cover;
 }
+@media screen and (max-width: 1024px) {
+  .merckx__image {
+    max-width: 430px;
+   }
+ }
 @media screen and (max-width: 768px) {
   .merckx__image {
     width: calc(100% - 36px);

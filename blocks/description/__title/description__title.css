@@ -3,13 +3,17 @@
   font-size: 55px;
   line-height: 60px;
   letter-spacing: -0.5px;
-  margin: 60px 0 0 0;
+  margin: 60px 0 0 120px;
+  max-width: 460px;
   color: #FFFFFF;
   grid-area: title;
 }
 @media screen and (max-width: 768px) {
   .description__title {
-    margin: 40px auto 0 auto;
+    margin: 0 auto 0 18px;
     justify-self: start;
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 284px;
    }
  }

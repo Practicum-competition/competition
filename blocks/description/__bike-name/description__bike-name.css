@@ -4,3 +4,8 @@
   line-height: 18px;
   margin: 0;
 }
+@media screen and (max-width: 768px) {
+  .description__bike-name {
+    display: none;
+   }
+ }

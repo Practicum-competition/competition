@@ -4,6 +4,13 @@
   column-gap: 40px;
   margin-top: 80px;
 }
+@media screen and (max-width: 1430px) {
+  .highway__photos {
+    display: grid;
+    column-gap: 40px;
+    margin-top: 80px;
+     }
+}
 @media screen and (max-width: 768px) {
   .highway__photos {
     column-gap: 0px;

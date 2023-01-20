@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-items: flex-start;
   justify-content: space-between;
-  max-width: 470px;
+  min-width: 470px;
   color: #FFFFFF;
   margin: 0px auto;
 }
 @media screen and (max-width: 1024px) {
   .merckx__text {
-    width: 470px;
+    min-width: 284px;
   }
 }
 @media screen and (max-width: 768px) {
