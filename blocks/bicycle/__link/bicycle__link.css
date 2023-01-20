@@ -20,13 +20,13 @@
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 767px){
   .bicycle__link {
     display: flex;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .bicycle__link {
     font-weight: 600;
     font-size: 11px;
