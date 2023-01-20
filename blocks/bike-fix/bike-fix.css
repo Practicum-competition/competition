@@ -6,5 +6,16 @@
     border-radius: 20px;
     object-fit: cover;
 }
-
+@media screen and (max-width: 1024px) {
+    .bike-fix {
+        min-width: 284px;
+        min-height: 230px;
+     }
+}
+   @media screen and (max-width: 768px) {
+    .bike-fix {
+        min-width: 234px;
+        min-height: 187px;
+     }
+}
 

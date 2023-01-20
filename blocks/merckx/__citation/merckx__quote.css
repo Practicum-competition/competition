@@ -6,9 +6,16 @@
   color: #FFFFFF;
   margin: 0;
 }
+@media screen and (max-width: 1024px) {
+  .merckx__quote {
+    width: 470px;
+     }
+ }
 @media screen and (max-width: 768px) {
   .merckx__quote {
     font-size: 23px;
     line-height: 29px;
-   }
+    max-width: 284px;
+    margin: 0px auto 40px 18px;
+     }
  }

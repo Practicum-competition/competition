@@ -6,3 +6,15 @@
     right: 0px;
     z-index: 3;
 }
+@media screen and (max-width: 1024px) {
+    .bike-fix__container {
+        min-width: 610px;
+        min-height: 345px;
+     }
+   }
+   @media screen and (max-width: 768px) {
+    .bike-fix__container {
+        min-width: 302px;
+        min-height: 245px;
+     }
+   }

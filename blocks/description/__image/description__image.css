@@ -2,11 +2,19 @@
   max-width: 610px;
   object-fit: cover;
   margin: 0;
+  grid-area: image;
+  justify-self: flex-end;
   
 }
+@media screen and (max-width: 1024px) {
+  .description__image {
+    max-width: 410px
+   }
+ }
 @media screen and (max-width: 768px) {
   .description__image {
-    grid-area: image;
-    margin: 40px auto;
+    margin: 40px 0 0 30px;
+    width: 100%;
+    max-width: 734px;
    }
  }

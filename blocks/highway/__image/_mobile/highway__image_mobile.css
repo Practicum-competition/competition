@@ -1,0 +1,8 @@
+.highway__image_mobile {
+  
+}
+@media screen and (max-width: 768px) {
+  .highway__image_mobile {
+    display: none;
+   }
+ }
