@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 1224px) {
   .merckx__image {
-    max-width: 430px;
+    width: 400px;
    }
  }
 @media screen and (max-width: 768px) {
