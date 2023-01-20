@@ -8,6 +8,11 @@
   color: #FFFFFF;
   grid-area: title;
 }
+@media screen and (max-width: 1024px) {
+  .description__title {
+    margin: 60px 0 0 70px;
+   }
+ }
 @media screen and (max-width: 768px) {
   .description__title {
     margin: 0 auto 0 18px;
